@@ -8,12 +8,12 @@ layout: default
 
 One of the most useful Bash tricks is tab completion.  You'll often find yourself typing a filename in the terminal; for example, to add a file to git.  If you start typing a file name and then press Tab, Bash will automatically complete the filename for you based on what's in the directory.  Suppose I have a bunch of long filenames in my current directory:
 
-```
+<pre>
 $ ls
 another_filename_that_is_also_long         
 another_really_long_filename_that_is_even_longer
 really_long_filename
-```
+</pre>
 
 If I want to add `really_long_filename` to git, I can start typing the filename:
 
