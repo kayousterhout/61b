@@ -53,8 +53,7 @@ This trick also works with commands! Suppose you've forgotten what language we'r
 
 <pre>
 $ ja
-jadetex         jar             java            javadoc         javah           javaws          
-jamo-normalize  jarsigner       javac           javafxpackager  javap 
+jadetex         jar             java            javadoc         javah           javaws          jamo-normalize  jarsigner       javac           javafxpackager  javap 
 </pre>
 
 This tip was inspired by a page on [How-To Geek](http://www.howtogeek.com/110150/become-a-linux-terminal-power-user-with-these-8-tricks/) that you can check out for more tips!
