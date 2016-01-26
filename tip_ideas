@@ -1,0 +1,13 @@
+-Remembering old commands: Ctrl+R, up arrow
+-Changing directory: ~, -, ..
+-Most commands have "man" or "--help"
+-Find (although this is bad because it has semantic differences on Unix and mac)
+-Using -r (cp, ls, etc.)
+
+IntelliJ
+-ctrl+click
+-ctrl+shift+N to open file
+-Fashion tip: using the dark color scheme
+
+Git
+-git grep
