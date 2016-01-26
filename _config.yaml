@@ -4,4 +4,4 @@ pygments: true
 
 markdown: kramdown
 permalink: pretty
-name: Trace Analysis
+name: CS61B Tips and Tricks
