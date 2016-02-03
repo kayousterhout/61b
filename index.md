@@ -4,6 +4,24 @@ layout: default
 ---
 # CS61B Tips and Tricks
 
+## 2/1/16: Never Retype: Up Arrow and Ctrl+R
+
+This week we'll learn two tricks to avoid re-typing commands you've already used.  The first is the up arrow.  Typing the up arrow in Bash will always bring up the previous command you entered.  For example, suppose I tried to add a link to our class's skeleton repository, but I accidentally mispelled it:
+
+<pre>
+$ git remote add skeleton https://github.com/Berkeley-CS61B/skeeeton-sp16.git
+</pre>
+
+When git gives me an error, it's going to be annoying to retype the entire command (with the typo fixed).  Instead, you can just press the up arrow, and then modify the last part of the command to eliminate the typo.
+
+The second, and more powerful trick, is using Control+r.  If you type Control+r (the control key and the "r" key at the same time), Bash will enter reverse search mode.  In this mode, you can start typing any part of a command you've used in the last, and Bash will autocomplete to the most recent command that had the string you typed as a substring.  If you press Control+r again, Bash will keep going backwards in history to the previous matching command.  For example, suppose I type Control+r and then type "pull":
+
+<pre>
+(reverse-i-search)`pull': git pull skeleton master
+</pre>
+
+Bash autocompletes to the most recent command I typed that included "pull", which in this case was a git command to pull the latest skeleton code.
+
 ## 1/25/16: Tab Completion
 
 One of the most useful Bash tricks is tab completion.  You'll often find yourself typing a filename in the terminal; for example, to add a file to git.  If you start typing a filename and then press Tab, Bash will automatically complete the filename for you based on what's in the directory.  Suppose I have a bunch of long filenames in my current directory:
