@@ -4,6 +4,13 @@ layout: default
 ---
 # CS61B Tips and Tricks
 
+## 2/8/16: Style Tip: Changing IntelliJ's Color Scheme
+
+As you've been using IntelliJ in class, you may have been wishing that IntelliJ used a color scheme with a black background, like Josh has set up Sublime to use in lecture.  To change IntelliJ to use a dark background, navigate to IntelliJ's preferences window.  For Mac users, this is under the IntelliJ menu at the top (for some users, it may be called "Settings" instead of "Preferences").  In the search bar at the top, type "theme".  You should see an entry pop up that's called "Appearance". Click "Appearance" and then next to "Theme:", change "Default" to "Darcula". You may need to re-start IntelliJ for the changes to take effect.
+
+![IntelliJ Theme Selection](figures/IntelliJ_Theme.jpg)
+
+
 ## 2/1/16: Never Retype: Up Arrow and Ctrl+R
 
 This week we'll learn two tricks to avoid re-typing commands you've already used.  The first is the up arrow.  Typing the up arrow in Bash will always bring up the previous command you entered.  For example, suppose I tried to add a link to our class's skeleton repository, but I accidentally mispelled it:
